@@ -1,1 +1,28 @@
-body {background:blue}
+.experience {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom-style: inset;
+  border-color: grey;
+}
+
+#visited-links {
+  font-style: oblique;
+  font-family: monospace;
+  font-size: 150%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+
+}
+
+p {margin: 15px;}
+
+i{
+  font-weight: bold;
+  font-family: sans-serif;
+  color: maroon; }
+
+  @media screen and (max-width: 500px) {
+    p {font-size: 125%}
+    }
